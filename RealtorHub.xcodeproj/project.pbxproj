@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		15CEC46229DE643900AFEB8F /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CEC46129DE643900AFEB8F /* LoginScreen.swift */; };
 		52CBB05B29D4C9B200003F3E /* RealtorHubApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CBB05A29D4C9B200003F3E /* RealtorHubApp.swift */; };
 		52CBB05D29D4C9B200003F3E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CBB05C29D4C9B200003F3E /* ContentView.swift */; };
 		52CBB05F29D4C9B400003F3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52CBB05E29D4C9B400003F3E /* Assets.xcassets */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		15CEC46129DE643900AFEB8F /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
 		52CBB05729D4C9B200003F3E /* RealtorHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealtorHub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52CBB05A29D4C9B200003F3E /* RealtorHubApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealtorHubApp.swift; sourceTree = "<group>"; };
 		52CBB05C29D4C9B200003F3E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 				52CBB05A29D4C9B200003F3E /* RealtorHubApp.swift */,
 				52CBB05C29D4C9B200003F3E /* ContentView.swift */,
 				52CBB08429D4E36500003F3E /* MainScreenView.swift */,
+				15CEC46129DE643900AFEB8F /* LoginScreen.swift */,
 				52CBB05E29D4C9B400003F3E /* Assets.xcassets */,
 				52CBB06029D4C9B400003F3E /* Preview Content */,
 			);
@@ -261,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				52CBB05D29D4C9B200003F3E /* ContentView.swift in Sources */,
+				15CEC46229DE643900AFEB8F /* LoginScreen.swift in Sources */,
 				52CBB08529D4E36500003F3E /* MainScreenView.swift in Sources */,
 				52CBB05B29D4C9B200003F3E /* RealtorHubApp.swift in Sources */,
 			);
