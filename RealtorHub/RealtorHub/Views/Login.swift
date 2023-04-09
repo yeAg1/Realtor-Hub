@@ -7,11 +7,11 @@
 
 import SwiftUI
 
-struct LoginScreen: View {
+struct LoginView: View {
     @State var user = ""
     @State var pass = ""
     @State var isLoggedIn = false
-
+    
     var body: some View {
         NavigationView {
             VStack {
@@ -38,7 +38,7 @@ struct LoginScreen: View {
                 }
                 .padding(.all, 5.0).overlay(Rectangle().stroke(.black, lineWidth: 2))
                 NavigationLink(
-                    destination: MainScreenView(),
+                    destination: MainScreenView().navigationBarBackButtonHidden(true),
                     isActive: $isLoggedIn,
                     label: {
                         Button("Login") {
@@ -50,13 +50,14 @@ struct LoginScreen: View {
                 )
             }
             .padding()
+            .ignoresSafeArea()
             //.navigationTitle("Welcome")
         }
     }
 }
 
-struct LoginScreen_Previews: PreviewProvider {
+struct LoginView_Previews: PreviewProvider {
     static var previews: some View {
-        LoginScreen()
+        LoginView()
     }
 }

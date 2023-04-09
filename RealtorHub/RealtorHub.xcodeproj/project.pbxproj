@@ -7,7 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		52509A3329DDEA3400F90D50 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52509A3229DDEA3400F90D50 /* SwiftUIView.swift */; };
+		15062F3829E23EA600F04B33 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15062F3729E23EA600F04B33 /* Login.swift */; };
+		15CEC46829E0DB4D00AFEB8F /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CEC46729E0DB4D00AFEB8F /* LandmarkDetail.swift */; };
+		15CEC46A29E0DB7200AFEB8F /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CEC46929E0DB7200AFEB8F /* LandmarkList.swift */; };
+		15CEC46C29E0DB8800AFEB8F /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CEC46B29E0DB8800AFEB8F /* LandmarkRow.swift */; };
+		15CEC46E29E0DBAC00AFEB8F /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CEC46D29E0DBAC00AFEB8F /* MapView.swift */; };
+		15CEC47029E0DC4300AFEB8F /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 15CEC46F29E0DC4300AFEB8F /* landmarkData.json */; };
+		15CEC47229E0DC6900AFEB8F /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CEC47129E0DC6900AFEB8F /* CircleImage.swift */; };
+		15CEC47429E0DC9100AFEB8F /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CEC47329E0DC9100AFEB8F /* Landmark.swift */; };
+		15CEC47629E0DC9F00AFEB8F /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CEC47529E0DC9F00AFEB8F /* ModelData.swift */; };
 		52CBB05B29D4C9B200003F3E /* RealtorHubApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CBB05A29D4C9B200003F3E /* RealtorHubApp.swift */; };
 		52CBB05F29D4C9B400003F3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52CBB05E29D4C9B400003F3E /* Assets.xcassets */; };
 		52CBB06229D4C9B400003F3E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52CBB06129D4C9B400003F3E /* Preview Assets.xcassets */; };
@@ -35,7 +43,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		52509A3229DDEA3400F90D50 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		15062F3729E23EA600F04B33 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		15CEC46729E0DB4D00AFEB8F /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
+		15CEC46929E0DB7200AFEB8F /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
+		15CEC46B29E0DB8800AFEB8F /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
+		15CEC46D29E0DBAC00AFEB8F /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		15CEC46F29E0DC4300AFEB8F /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
+		15CEC47129E0DC6900AFEB8F /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		15CEC47329E0DC9100AFEB8F /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
+		15CEC47529E0DC9F00AFEB8F /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		52CBB05729D4C9B200003F3E /* RealtorHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealtorHub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52CBB05A29D4C9B200003F3E /* RealtorHubApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealtorHubApp.swift; sourceTree = "<group>"; };
 		52CBB05E29D4C9B400003F3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -73,11 +89,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		524AE9EE29D8BE34005CDDC8 /* MainScreens */ = {
+		15CEC47729E0DDB600AFEB8F /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				15CEC47329E0DC9100AFEB8F /* Landmark.swift */,
+				15CEC47529E0DC9F00AFEB8F /* ModelData.swift */,
 			);
-			path = MainScreens;
+			path = Model;
+			sourceTree = "<group>";
+		};
+		15CEC47829E0DDD800AFEB8F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				15CEC46729E0DB4D00AFEB8F /* LandmarkDetail.swift */,
+				15062F3729E23EA600F04B33 /* Login.swift */,
+				15CEC46929E0DB7200AFEB8F /* LandmarkList.swift */,
+				52CBB08429D4E36500003F3E /* MainScreenView.swift */,
+				15CEC46B29E0DB8800AFEB8F /* LandmarkRow.swift */,
+				15CEC46D29E0DBAC00AFEB8F /* MapView.swift */,
+				15CEC47129E0DC6900AFEB8F /* CircleImage.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		15CEC47929E0DE1C00AFEB8F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				15CEC46F29E0DC4300AFEB8F /* landmarkData.json */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		52CBB04E29D4C9B200003F3E = {
@@ -103,10 +143,10 @@
 		52CBB05929D4C9B200003F3E /* RealtorHub */ = {
 			isa = PBXGroup;
 			children = (
-				52509A3229DDEA3400F90D50 /* SwiftUIView.swift */,
-				52CBB08429D4E36500003F3E /* MainScreenView.swift */,
+				15CEC47829E0DDD800AFEB8F /* Views */,
+				15CEC47729E0DDB600AFEB8F /* Model */,
+				15CEC47929E0DE1C00AFEB8F /* Resources */,
 				52CBB05A29D4C9B200003F3E /* RealtorHubApp.swift */,
-				524AE9EE29D8BE34005CDDC8 /* MainScreens */,
 				52CBB05E29D4C9B400003F3E /* Assets.xcassets */,
 				52CBB06029D4C9B400003F3E /* Preview Content */,
 			);
@@ -244,6 +284,7 @@
 			files = (
 				52CBB06229D4C9B400003F3E /* Preview Assets.xcassets in Resources */,
 				52CBB05F29D4C9B400003F3E /* Assets.xcassets in Resources */,
+				15CEC47029E0DC4300AFEB8F /* landmarkData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,9 +309,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15CEC46E29E0DBAC00AFEB8F /* MapView.swift in Sources */,
+				15CEC47229E0DC6900AFEB8F /* CircleImage.swift in Sources */,
+				15CEC46829E0DB4D00AFEB8F /* LandmarkDetail.swift in Sources */,
 				52CBB08529D4E36500003F3E /* MainScreenView.swift in Sources */,
+				15CEC46C29E0DB8800AFEB8F /* LandmarkRow.swift in Sources */,
+				15CEC47429E0DC9100AFEB8F /* Landmark.swift in Sources */,
 				52CBB05B29D4C9B200003F3E /* RealtorHubApp.swift in Sources */,
-				52509A3329DDEA3400F90D50 /* SwiftUIView.swift in Sources */,
+				15CEC47629E0DC9F00AFEB8F /* ModelData.swift in Sources */,
+				15062F3829E23EA600F04B33 /* Login.swift in Sources */,
+				15CEC46A29E0DB7200AFEB8F /* LandmarkList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +478,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"RealtorHub/Preview Content\"";
+				DEVELOPMENT_TEAM = 2SHVW58RM8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -459,6 +508,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"RealtorHub/Preview Content\"";
+				DEVELOPMENT_TEAM = 2SHVW58RM8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
