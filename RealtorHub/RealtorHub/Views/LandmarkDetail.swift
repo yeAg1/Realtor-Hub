@@ -21,6 +21,9 @@ struct LandmarkDetail: View {
                     Text(landmark.park)
                     Spacer()
                     Text(landmark.state)
+                    Spacer()
+                    
+                    
                 }
                 .font(.subheadline)
                 .foregroundColor(.secondary)

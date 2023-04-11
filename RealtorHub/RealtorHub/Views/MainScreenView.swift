@@ -1,11 +1,43 @@
 import SwiftUI
+import MapKit
+
 
 struct MainScreenView: View {
-    @State private var isShowingLandmarkList = false
+    //@State private var isShowingLandmarkList = false
+    //@State private var isShowingCircleImage = false
+
     
     var body: some View {
-        NavigationView {
-            HStack {
+        TabView {
+            LandmarkList()
+                .tabItem() {
+                    Image(systemName: "house")
+                    Text("properties")
+                }
+            MapView(coordinate: CLLocationCoordinate2D(latitude: 34.011_286, longitude: -116.166_868))
+                .tabItem() {
+                    Image(systemName: "message")
+                    Text("chat")
+                }
+            CircleImage(image: Image("turtlerock"))
+                .tabItem() {
+                    Image(systemName: "globe")
+                    Text("live feed")
+                }
+            LandmarkList()
+                .tabItem() {
+                    Image(systemName: "percent")
+                    Text("calculator")
+                }
+            LandmarkList()
+                .tabItem() {
+                    Image(systemName: "person.fill")
+                    Text("profile")
+                }
+        }
+        
+        //NavigationView {
+            //HStack {
                 VStack(alignment: .center){
                     Rectangle()
                         .fill(Color("AccentColor").gradient)
@@ -20,8 +52,10 @@ struct MainScreenView: View {
                             .padding(.top, -185.0)  // might need to change since it moves after logging in
                     }
                 }
+                .padding(.bottom, 620.0)
                 
-                .toolbar {
+                
+                /*.toolbar {
                     ToolbarItemGroup(placement : .bottomBar)
                     {
                         Button{
@@ -60,9 +94,9 @@ struct MainScreenView: View {
                     NavigationView {
                         LandmarkList()
                     }
-            }
-            }
-        }
+            }*/
+            //}
+       // }
     }
     
     struct MainScreenView_Previews: PreviewProvider {

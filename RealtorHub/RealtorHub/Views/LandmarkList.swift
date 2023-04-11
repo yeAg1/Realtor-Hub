@@ -10,7 +10,7 @@ struct LandmarkList: View {
                     LandmarkRow(landmark: landmark)
                 }
             }
-            .navigationTitle("Properties")
+            .navigationTitle("Saved Properties")
         }
     }
 }
