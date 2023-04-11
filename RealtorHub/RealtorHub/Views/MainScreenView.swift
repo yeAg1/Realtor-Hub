@@ -10,6 +10,7 @@ struct MainScreenView: View {
     var body: some View {
         TabView {
             LandmarkList()
+                .environmentObject(ModelData())
                 .tabItem() {
                     Image(systemName: "house")
                     Text("properties")
@@ -25,11 +26,13 @@ struct MainScreenView: View {
                     Text("live feed")
                 }
             LandmarkList()
+                .environmentObject(ModelData())
                 .tabItem() {
                     Image(systemName: "percent")
                     Text("calculator")
                 }
-            LandmarkList()
+            ProfileHost()
+                .environmentObject(ModelData())
                 .tabItem() {
                     Image(systemName: "person.fill")
                     Text("profile")

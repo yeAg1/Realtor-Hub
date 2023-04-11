@@ -1,9 +1,9 @@
 [
     {
-        "name": "Example property",
-        "category": "category",
+        "name": "example",
+        "category": "Rivers",
         "city": "city",
-        "state": "State",
+        "state": "state",
         "id": 1001,
         "isFeatured": true,
         "isFavorite": true,
@@ -12,14 +12,14 @@
             "longitude": -116.166868,
             "latitude": 34.011286
         },
-        "description": "Property 1 description. Edit landmarkData.json to change property description",
+        "description": "description of property",
         "imageName": "StockPhoto"
     },
     {
-        "name": "Property 2",
-        "category": "Rivers",
-        "city": "Palm Springs",
-        "state": "California",
+        "name": "Silver Salmon Creek",
+        "category": "Lakes",
+        "city": "Port Alsworth",
+        "state": "Alaska",
         "id": 1002,
         "isFeatured": false,
         "isFavorite": false,
@@ -28,14 +28,14 @@
             "longitude": -152.665167,
             "latitude": 59.980167
         },
-        "description": "",
-        "imageName": "StockPhoto"
+        "description": "Suscipit inceptos est felis purus aenean aliquet adipiscing diam venenatis, augue nibh duis neque aliquam tellus condimentum sagittis vivamus, cras ante etiam sit conubia elit tempus accumsan libero, mattis per erat habitasse cubilia ligula penatibus curae. Sagittis lorem augue arcu blandit libero molestie non ullamcorper, finibus imperdiet iaculis ad quam per luctus neque, ligula curae mauris parturient diam auctor eleifend laoreet ridiculus, hendrerit adipiscing sociosqu pretium nec velit aliquam. Inceptos egestas maecenas imperdiet eget id donec nisl curae congue, massa tortor vivamus ridiculus integer porta ultrices venenatis aliquet, curabitur et posuere blandit magnis dictum auctor lacinia, eleifend dolor in ornare vulputate ipsum morbi felis. Faucibus cursus malesuada orci ultrices diam nisl taciti torquent, tempor eros suspendisse euismod condimentum dis velit mi tristique, a quis etiam dignissim dictum porttitor lobortis ad fermentum, sapien consectetur dui dolor purus elit pharetra. Interdum mattis sapien ac orci vestibulum vulputate laoreet proin hac, maecenas mollis ridiculus morbi praesent cubilia vitae ligula vel, sem semper volutpat curae mauris justo nisl luctus, non eros primis ultrices nascetur erat varius integer.",
+        "imageName": "silversalmoncreek"
     },
     {
-        "name": "Property 3",
-        "category": "Rivers",
-        "city": "Palm Springs",
-        "state": "California",
+        "name": "Chilkoot Trail",
+        "category": "Mountains",
+        "city": "Skagway",
+        "state": "Alaska",
         "id": 1003,
         "isFeatured": false,
         "isFavorite": true,
@@ -48,10 +48,10 @@
         "imageName": "chilkoottrail"
     },
     {
-        "name": "Property 4",
-        "category": "Rivers",
-        "city": "Palm Springs",
-        "state": "California",
+        "name": "St. Mary Lake",
+        "category": "Lakes",
+        "city": "Browning",
+        "state": "Montana",
         "id": 1004,
         "isFeatured": true,
         "isFavorite": true,
@@ -64,10 +64,10 @@
         "imageName": "stmarylake"
     },
     {
-        "name": "Property 5",
-        "category": "Rivers",
-        "city": "Palm Springs",
-        "state": "California",
+        "name": "Twin Lake",
+        "category": "Lakes",
+        "city": "Twin Lakes",
+        "state": "Alaska",
         "id": 1005,
         "isFeatured": false,
         "isFavorite": false,
@@ -80,10 +80,10 @@
         "imageName": "twinlake"
     },
     {
-        "name": "Property 6",
-        "category": "Rivers",
-        "city": "Palm Springs",
-        "state": "California",
+        "name": "Lake McDonald",
+        "category": "Mountains",
+        "city": "West Glacier",
+        "state": "Montana",
         "id": 1006,
         "isFeatured": false,
         "isFavorite": false,
@@ -96,10 +96,10 @@
         "imageName": "lakemcdonald"
     },
     {
-        "name": "Property 7",
+        "name": "Charley Rivers",
         "category": "Rivers",
-        "city": "Palm Springs",
-        "state": "California",
+        "city": "Eaking",
+        "state": "Alaska",
         "id": 1007,
         "isFeatured": true,
         "isFavorite": false,
@@ -112,10 +112,10 @@
         "imageName": "charleyrivers"
     },
     {
-        "name": "Property 8",
-        "category": "Rivers",
-        "city": "Palm Springs",
-        "state": "California",
+        "name": "Icy Bay",
+        "category": "Mountains",
+        "city": "Icy Bay",
+        "state": "Alaska",
         "id": 1008,
         "isFeatured": false,
         "isFavorite": false,
@@ -128,10 +128,10 @@
         "imageName": "icybay"
     },
     {
-        "name": "Property 9",
-        "category": "Rivers",
-        "city": "Palm Springs",
-        "state": "California",
+        "name": "Rainbow Lake",
+        "category": "Lakes",
+        "city": "Willow",
+        "state": "Alaska",
         "id": 1009,
         "isFeatured": false,
         "isFavorite": false,
@@ -144,10 +144,10 @@
         "imageName": "rainbowlake"
     },
     {
-        "name": "Property 10",
-        "category": "Rivers",
-        "city": "Palm Springs",
-        "state": "California",
+        "name": "Hidden Lake",
+        "category": "Lakes",
+        "city": "Newhalem",
+        "state": "Washington",
         "id": 1010,
         "isFeatured": false,
         "isFavorite": false,
@@ -160,10 +160,10 @@
         "imageName": "hiddenlake"
     },
     {
-        "name": "Property 11",
+        "name": "Chincoteague",
         "category": "Rivers",
-        "city": "Palm Springs",
-        "state": "California",
+        "city": "Chincoteague",
+        "state": "Virginia",
         "id": 1011,
         "isFeatured": false,
         "isFavorite": false,
@@ -176,10 +176,10 @@
         "imageName": "chincoteague"
     },
     {
-        "name": "Property 12",
-        "category": "Rivers",
-        "city": "Palm Springs",
-        "state": "California",
+        "name": "Lake Umbagog",
+        "category": "Lakes",
+        "city": "Errol",
+        "state": "New Hampshire",
         "id": 1012,
         "isFeatured": false,
         "isFavorite": false,
