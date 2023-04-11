@@ -23,6 +23,12 @@ struct ProfileEditor: View {
                 Divider()
                 TextField("Username", text: $profile.username)
             }
+            
+            HStack {
+                Text("Email").bold()
+                Divider()
+                TextField("email", text: $profile.email)
+            }
 
             Toggle(isOn: $profile.prefersNotifications) {
                 Text("Enable Notifications").bold()
@@ -33,17 +39,17 @@ struct ProfileEditor: View {
                 Divider()
                 //TextField("DRE"), text: $profile.DRE
 
-                Picker("Seasonal Photo", selection: $profile.seasonalPhoto) {
+                /*Picker("Seasonal Photo", selection: $profile.status) {
                     ForEach(Profile.Season.allCases) { season in
                         Text(season.rawValue).tag(season)
                     }
                 }
-                .pickerStyle(.segmented)
+                .pickerStyle(.segmented)*/
             }
 
-            DatePicker(selection: $profile.goalDate, in: dateRange, displayedComponents: .date) {
-                Text("Goal Date").bold()
-            }
+            /*DatePicker(selection: $profile.goalDate, in: dateRange, displayedComponents: .date) {
+                //Text("Goal Date").bold()
+            }*/
         }
     }
 }

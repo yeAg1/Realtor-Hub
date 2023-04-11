@@ -21,7 +21,7 @@ struct LandmarkList: View {
         NavigationView {
             List {
                 Toggle(isOn: $showFavoritesOnly) {
-                    Text("Favorites only")
+                    Text("watching")
                 }
 
                 ForEach(filteredLandmarks) { landmark in
@@ -31,11 +31,13 @@ struct LandmarkList: View {
                         LandmarkRow(landmark: landmark)
                     }
                 }
+                
             }
             .navigationTitle("Properties")
         }
     }
 }
+
 
 struct LandmarkList_Previews: PreviewProvider {
     static var previews: some View {

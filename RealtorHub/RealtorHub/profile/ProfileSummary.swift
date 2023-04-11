@@ -18,14 +18,14 @@ struct ProfileSummary: View {
                     Text(profile.username)
                         .bold()
                     .font(.title)
-                    //Spacer()
-                    CircleImage(image: Image("ProfilePic"))
+                    Spacer()
+                    ProfileImage(image: Image("ProfilePic"))
                     
                 }
 
                 Text("Notifications: \(profile.prefersNotifications ? "On": "Off" )")
-                Text("Status: \(profile.seasonalPhoto.rawValue)")
-                Text("DRE license: xxxxxxxxxxx") //+ Text(profile.goalDate, style: .date)
+                Text("Status: ")//\(profile.seasonalPhoto.rawValue)")
+                Text("DRE license: ") + Text(profile.DRE)
 
                 Divider()
 
@@ -49,10 +49,10 @@ struct ProfileSummary: View {
                 Divider()
 
                 VStack(alignment: .leading) {
-                    Text("Recent Hikes")
+                    Text("Bio")
                         .font(.headline)
 
-                    HikeView(hike: modelData.hikes[0])
+                    //HikeView(hike: modelData.hikes[0])
                 }
             }
             .padding()

@@ -5,11 +5,13 @@ struct CircleImage: View {
 
     var body: some View {
         image
+        
             .clipShape(Rectangle())
             .overlay {
                 Rectangle().stroke(.white, lineWidth: 4)
             }
             .shadow(radius: 7)
+        
     }
 }
 
@@ -18,9 +20,12 @@ struct ProfileImage: View {
 
     var body: some View {
         image
-            .clipShape(Rectangle())
+        
+            .resizable()
+            .frame(width: 200, height: 200)
+            .clipShape(Circle())
             .overlay {
-                Rectangle().stroke(.white, lineWidth: 4)
+                Circle().stroke(.white, lineWidth: 4)
             }
             .shadow(radius: 7)
     }

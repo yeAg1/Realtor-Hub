@@ -20,7 +20,8 @@ struct MainScreenView: View {
                     Image(systemName: "message")
                     Text("chat")
                 }
-            CircleImage(image: Image("turtlerock"))
+            CategoryHome()
+                .environmentObject(ModelData())
                 .tabItem() {
                     Image(systemName: "globe")
                     Text("live feed")
@@ -41,7 +42,7 @@ struct MainScreenView: View {
         
         //NavigationView {
             //HStack {
-                VStack(alignment: .center){
+                /*VStack(alignment: .center){
                     Rectangle()
                         .fill(Color("AccentColor").gradient)
                         .frame(width: 400, height: 200)
@@ -56,7 +57,7 @@ struct MainScreenView: View {
                     }
                 }
                 .padding(.bottom, 620.0)
-                
+                */
                 
                 /*.toolbar {
                     ToolbarItemGroup(placement : .bottomBar)
